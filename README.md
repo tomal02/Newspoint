@@ -47,6 +47,7 @@ To make my news reading more fun
 
 ## Planning
 ### Wireframe
+![](images/Newspoint_wireframe-afterclick.png)
 ### Domain model
 ### User stories
 -->

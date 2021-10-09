@@ -2,8 +2,9 @@
 
 A single page web app which pulls headlines and stories from the Guardian API
 
-## User stories
-
+## Planning
+<!-- ### Domain model -->
+### User stories
 ```
 As a busy politician
 I can see all of today's headlines in one place
@@ -39,15 +40,11 @@ As a busy politician
 I can see whizzy animations in the app
 To make my news reading more fun
 ```
-
+### Wireframe
+![Mobile wireframe](images/ios-wireframe.png)
+![Desktop wireframe](images/desktop-wireframe.png)
 <!--
 ## Overview
 ### Features
 ### How to run
-
-## Planning
-### Wireframe
-![](images/Newspoint_wireframe-afterclick.png)
-### Domain model
-### User stories
 -->

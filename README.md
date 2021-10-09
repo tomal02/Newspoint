@@ -4,8 +4,6 @@ A single page web app which pulls headlines and stories from the Guardian API
 
 ## User stories
 
----
-
 ```
 As a busy politician
 I can see all of today's headlines in one place

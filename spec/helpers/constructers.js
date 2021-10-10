@@ -8,3 +8,9 @@ const describe = (label, callback) => {
   console.log('');
   callback();
 };
+
+const it = (label, callback) => {
+  console.log(`::::It ${label} {`);
+  callback();
+  console.log('}::::');
+};

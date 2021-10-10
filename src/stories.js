@@ -1,1 +1,5 @@
-class Stories {}
+class Stories {
+  constructor() {
+    this.stories = [];
+  }
+}

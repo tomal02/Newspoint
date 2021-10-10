@@ -3,7 +3,22 @@
 A single page web app which pulls headlines and stories from the Guardian API
 
 ## Planning
-<!-- ### Domain model -->
+### Domain model
+Story
+| Attributes     |
+| -------------- |
+| Title          |
+| Body           |
+| Image          |
+| Source         |
+
+
+Stories
+| Functions       | Attributes     |
+| --------------- | -------------- |
+| getStory(index  | stories        |
+| getAll()        |                |
+
 ### User stories
 ```
 As a busy politician

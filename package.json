@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tomal02/Newspoint/issues"
   },
-  "homepage": "https://github.com/tomal02/Newspoint#readme"
+  "homepage": "https://github.com/tomal02/Newspoint#readme",
+  "devDependencies": {
+    "eslint": "^8.0.0"
+  }
 }

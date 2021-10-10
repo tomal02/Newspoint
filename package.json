@@ -1,0 +1,20 @@
+{
+  "name": "newspoint",
+  "version": "1.0.0",
+  "description": "A single page web app which pulls headlines and stories from the Guardian API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomal02/Newspoint.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomal02/Newspoint/issues"
+  },
+  "homepage": "https://github.com/tomal02/Newspoint#readme"
+}

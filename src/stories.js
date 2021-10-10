@@ -6,4 +6,8 @@ class Stories {
   getStory(index) {
     return this.stories[index];
   }
+
+  getAll() {
+    return this.stories;
+  }
 }

@@ -9,6 +9,7 @@ describe('Stories', () => {
   it('can store story attributes correctly', () => {
     let testStory1 = new Story('title1', 'body1', 'image1', 'source1');
     let testStory2 = new Story('title2', 'body2', 'image2', 'source2');
+    news.stories = ['testStory1', 'testStory2'];
     let result = stories.getAll();
     expect(result[0].title).toEqual('title1');
     expect(result[0].body).toEqual('title1');

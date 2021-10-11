@@ -5,4 +5,14 @@ describe('Stories', () => {
     news.stories = ['testStory1', 'testStory2'];
     expect(stories.getAll()).toEqual(['testStory1', 'testStory2']);
   });
+
+  it('can store story attributes correctly', () => {
+    let testStory1 = new Story('title1', 'body1', 'image1', 'source1');
+    let testStory2 = new Story('title2', 'body2', 'image2', 'source2');
+    let result = stories.getAll();
+    expect(result[0].title).toEqual('title1');
+    expect(result[0].body).toEqual('title1');
+    expect(result[1].source).toEqual('title1');
+    expect(result[1].image).toEqual('title1');
+  });
 });

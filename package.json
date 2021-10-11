@@ -4,7 +4,8 @@
   "description": "A single page web app which pulls headlines and stories from the Guardian API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "open ./SpecRunner.html",
+    "start": "http-server ./"
   },
   "repository": {
     "type": "git",

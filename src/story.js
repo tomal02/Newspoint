@@ -1,8 +1,8 @@
 class Story {
-  constructor(title, body, image, source) {
-    this.title = title;
-    this.body = body;
-    this.image = image;
-    this.source = source;
+  constructor(params) {
+    this.title = params['title'];
+    this.body = params['body'];
+    this.image = params['image'];
+    this.source = params['source'];
   }
 }

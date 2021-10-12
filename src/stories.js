@@ -10,4 +10,8 @@ class Stories {
   getAll() {
     return this.stories;
   }
+
+  addStory(story) {
+    this.stories.push(story);
+  }
 }

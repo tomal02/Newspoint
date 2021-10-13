@@ -15,7 +15,16 @@ document.addEventListener('DOMContentLoaded', () => {
         );
       });
       console.log(stories);
-      // document.querySelector('#full-story-title').innerText =
-      //   stories.stories[0].body;
+      document.querySelector('#full-story-title').innerText =
+        stories.stories[0].title;
+      document.querySelector('#full-story-body').innerText =
+        stories.stories[0].body;
+
+      const image = document.createElement('img');
+      image.src = `${stories.stories[0].image}`;
+      document.querySelector('.image-div').appendChild(image);
+
+      document.querySelector('#full-story-source').innerText =
+        stories.stories[0].source;
     });
 });
